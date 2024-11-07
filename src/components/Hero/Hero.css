@@ -1,0 +1,5 @@
+.hero {
+  background-image: url(../../assets/hero-desktop.webp);
+  background-size: cover;
+  height: 500px;
+}

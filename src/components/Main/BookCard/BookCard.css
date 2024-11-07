@@ -1,0 +1,51 @@
+.book-card {
+  height: min-content;
+  box-shadow: 0px 3px 7px 0px var(--dk-grey-color);
+  background-color: var(--lg-grey-color);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.book-card:hover {
+  transform: scale(1.02);
+}
+
+.book-card .category {
+  position: absolute;
+  right: 1.2rem;
+  top: 1.2rem;
+  padding: 3px 6px;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  border-radius: 10px;
+}
+
+.book-card .top {
+  height: 300px;
+}
+
+/* .detail {
+  min-width: 400px;
+} */
+
+.detail .top {
+  height: 500px;
+}
+
+.isSelected {
+  border: 5px solid red;
+  transition: 0s;
+}
+
+/* DARK MODE */
+.light-card {
+  box-shadow: 0px 3px 7px 0px var(--dk-grey-color);
+  background-color: var(--lg-grey-color);
+  color: var(--black-color);
+}
+
+.dark-card {
+  box-shadow: 0px 3px 7px 0px var(--dk-black-color);
+  background-color: var(--md-black-color);
+  color: var(--lg-grey-color);
+}

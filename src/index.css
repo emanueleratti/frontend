@@ -1,0 +1,141 @@
+/* COLOR */
+:root {
+  --dk-black-color: #0e0e0e;
+  --md-black-color: #1b1b1b;
+  --lg-black-color: #242424;
+  --black-color: #222222;
+  --dk-grey-color: #e3e3e3;
+  --md-grey-color: #ececec;
+  --lg-grey-color: #f6f6f6;
+  --grey-color: #666666;
+  --white-color: #ffffff;
+  --primary-color: #0c96e6;
+  --secondary-color: #e9559b;
+}
+
+.black {
+  color: var(--black-color);
+}
+.dk-grey {
+  color: var(--dk-grey-color);
+}
+.md-grey {
+  color: var(--md-grey-color);
+}
+.lg-grey {
+  color: var(--lg-grey-color);
+}
+.grey {
+  color: var(--grey-color);
+}
+.white {
+  color: var(--white-color);
+}
+.primary {
+  color: var(--primary-color);
+}
+.primary-bg {
+  background-color: var(--primary-color);
+}
+.secondary {
+  color: var(--secondary-color);
+}
+.secondary-bg {
+  background-color: var(--secondary-color);
+}
+
+/* FONTS */
+@font-face {
+  font-family: "Mikado Black";
+  src: url("./assets/font/MikadoBlack.otf") format("opentype");
+}
+.w-black {
+  font-family: "Mikado Black", sans-serif;
+}
+
+@font-face {
+  font-family: "Mikado Bold";
+  src: url("./assets/font/MikadoBold.otf") format("opentype");
+}
+.w-bold {
+  font-family: "Mikado Bold", sans-serif;
+}
+
+@font-face {
+  font-family: "Mikado Medium";
+  src: url("./assets/font/MikadoMedium.otf") format("opentype");
+}
+.w-medium {
+  font-family: "Mikado Medium", sans-serif;
+}
+
+@font-face {
+  font-family: "Mikado Regular";
+  src: url("./assets/font/MikadoRegular.otf") format("opentype");
+}
+.w-regular {
+  font-family: "Mikado Regular", sans-serif;
+}
+
+@font-face {
+  font-family: "Mikado Light";
+  src: url("./assets/font/MikadoLight.otf") format("opentype");
+}
+.w-light {
+  font-family: "Mikado Light", sans-serif;
+}
+
+/* FONT SIZE */
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 3.6rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.8rem;
+}
+p {
+  font-size: 0.9rem;
+}
+.p-small {
+  font-size: 0.7rem;
+}
+.p-big {
+  font-size: 1rem;
+}
+
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* DARK MODE */
+.light-background {
+  background-color: var(--white-color) !important;
+}
+
+.dark-background {
+  background-color: var(--black-color) !important;
+}
+
+.reviews-icon-light {
+  fill: #0c96e6 !important;
+}
+
+.reviews-icon-dark {
+  fill: #0c96e6 !important;
+}

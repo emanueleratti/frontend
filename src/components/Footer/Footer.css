@@ -1,0 +1,34 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  height: min-content;
+}
+
+.divider {
+  width: 50%;
+  height: 1px;
+  background-color: var(--grey-color);
+}
+
+.footer a {
+  color: var(--grey-color);
+  text-decoration: none;
+}
+
+.footer a h6 {
+  font-weight: 700;
+}
+
+.footer a:hover {
+  color: var(--black-color);
+}
+
+/* DARK MODE */
+.light-footer-bg {
+  background-color: var(--md-grey-color);
+}
+
+.dark-footer-bg {
+  background-color: var(--md-black-color);
+}

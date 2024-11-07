@@ -1,0 +1,40 @@
+.main {
+  position: relative;
+  margin-bottom: 425px;
+  min-height: min-content;
+}
+
+.pagination {
+  display: flex;
+  gap: 5px;
+}
+
+.page-link {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination .page-link {
+  border-radius: 50px !important;
+  min-width: 44px !important;
+  min-height: 44px !important;
+  color: var(--secondary-color) !important;
+}
+
+.pagination .active > .page-link {
+  background-color: var(--secondary-color) !important;
+  color: var(--white-color) !important;
+  border: none;
+}
+
+/* DARK MODE */
+.light-main-bg {
+  background-color: var(--white-color);
+  box-shadow: 0px 10px 20px 0px #66666650;
+}
+
+.dark-main-bg {
+  background-color: var(--black-color);
+  box-shadow: 0px 10px 20px 0px #0f0f0f;
+}
